@@ -1,7 +1,9 @@
+html {
+    background: linear-gradient(#22c1c3, #fdbb2d);
+}
+
 body {
     background: linear-gradient(#22c1c3, #fdbb2d);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     font-family: 'Nunito', sans-serif;
     padding-top: 50px;
 }
@@ -15,29 +17,20 @@ a, p {
 }
 
 .container {
-    width: 550px;
+    max-width: 550px;
     margin: auto;
     background-color: #fff;
-    border-radius: 25px;
     -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21); 
     box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
 }
 
 .header-bar {
-    width: 550px;
-    position: relative;
-    margin-left: -12px;
     display: flex;
     justify-content: space-between;
     color: #fff;
     padding: 10px;
-    border-radius: 25px 25px 0 0;
-    background-color: #DBDBDB;
-}
-
-.header-h1 {
-    margin-left: 20px;
-    margin-top: 10px;
+    border-radius: 5px 5px 0 0;
+    background: linear-gradient(90deg, #EEA390 0%, #EB796F 43%, #EB796F 100%);
 }
 
 .header-bar a {
